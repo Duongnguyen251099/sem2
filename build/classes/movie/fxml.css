@@ -1,0 +1,95 @@
+
+#background{
+    -fx-background-color:white;
+}
+
+
+#button3{
+    -fx-text-fill:white;
+
+}
+#button3:hover {
+
+    -fx-text-fill:black;
+}
+#button2{
+    -fx-background-color: #99ccff;
+    -fx-font-size: 18px;
+    -fx-mid-text-color: #ffffff ;
+}
+#button2:hover {
+    -fx-background-color: #ff9933;
+    -fx-mid-text-color: black ;
+}
+
+#button1{
+    -fx-background-color: #99ccff;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-pref-width: 195px;
+    -fx-pref-height: 38px;
+}
+
+#button1:hover {
+    -fx-background-color: #ff9933;
+    -fx-text-fill:black;
+}
+/*.tab-pane {
+     
+    -fx-background-color: #ffffff;
+}
+.tab {
+     Thiết lập màu chữ cho tab khi không hover 
+    -fx-text-fill: white;
+}
+
+.tab:hover {
+     Thiết lập màu chữ cho tab khi hover 
+    -fx-text-fill: black;
+}*/
+
+.table-view{
+    -fx-font-size: 18px;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-size:18px;
+}
+
+.spinner .increment-arrow-button:hover,
+
+.spinner .increment-arrow-button:hover:pressed,
+.spinner .decrement-arrow-button:hover:pressed,
+.spinner .increment-arrow-button:pressed,
+
+.label{
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+/*#header{
+    -fx-font-family: Times New Roman;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}*/
+.table-view{
+    -fx-font-size: 18px;
+    -fx-font-family: Times New Roman;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filter{
+    -fx-cell-size: 20px;
+    -fx-background-color:  white;
+    -fx-alignment: center;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+.table-view .cell{
+    -fx-alignment: CENTER;  
+}
+
